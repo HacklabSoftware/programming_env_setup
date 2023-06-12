@@ -14,6 +14,8 @@ or you can install the vanila setup us shown below
 sudo apt install zsh
 ```
 
+Download or run this instead: https://github.com/ohmyzsh/ohmyzsh
+
 
 Make it your default shell: 
 
@@ -36,6 +38,14 @@ cp .zshrc ~/.zshrc
 source ~/.zshrc
 ```
 
+
+Setup fonts
+
+```
+git clone https://github.com/ryanoasis/nerd-fonts.git
+cd nerd-fonts
+./install.sh 
+```
 
 
 ### NVIM Setup
