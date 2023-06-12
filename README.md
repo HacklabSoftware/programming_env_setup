@@ -8,6 +8,8 @@
 sudo apt install zsh
 ```
 
+Download or run this instead: https://github.com/ohmyzsh/ohmyzsh
+
 
 Make it your default shell: 
 
