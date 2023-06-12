@@ -3,6 +3,12 @@
 
 ### ZSH setup
 
+You can directly use this to help setup zsh
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+or you can install the vanila setup us shown below
+
 #### Install ZSH
 ```
 sudo apt install zsh
@@ -16,17 +22,18 @@ chsh -s $(which zsh)
 ```
 
 
-Copy the .zshrc file from this repo and paste it in ~/.zshrc. You will have to repeat the same command to setup for other users like root
+Copy the .zshrc file from this repo and paste it in ~/.zshrc. 
 ```
 zsh
-cp .zshrc ~/.zshrc
+cp copy.zshrc ~/.zshrc
 source ~/.zshrc
-
+```
+You will have to repeat the same command to setup for other users like root
+```
 sudo -i 
 cd <repo directory>
 cp .zshrc ~/.zshrc
 source ~/.zshrc
-
 ```
 
 
@@ -64,15 +71,16 @@ Copy the nvim folder to your ~/.config/nvim folder
 
 ```
 mkdir ~/.config/nvim
-cp -rf nvim/* ~/.config/nvim/.
-
+cp -rf <repo location>/programming_env_setup/nvim/* ~/.config/nvim/.
 ```
 
 Type nvim on zsh to setup and install the plugins
 ```
 nvim
 ```
+Type :Lazy to check what plugins are installed on nvim
 
+Type :Mason to check what extra plugins you can use
 
 
 
@@ -87,9 +95,12 @@ Use Shift-V and arrow keys to select the area
 ```
 2. Using ChatGpt
 ```
-Type ':ChatGptRun optimize_code' to get started with using ChatGpt
+Type ':ChatGptRun optimize_code' to get started with using ChatGpt; 
 ```
-
+3. Accept Changes
+```
+Press Ctrl+y to accept the recommentation
+```
 
 
 #### `ChatGPTActAs`
