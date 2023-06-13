@@ -81,7 +81,7 @@ Copy the nvim folder to your ~/.config/nvim folder
 
 ```
 mkdir ~/.config/nvim
-cp -rf <repo location>/programming_env_setup/nvim/* ~/.config/nvim/.
+cp -rf <repo location>/nvim_setup/nvim/* ~/.config/nvim/.
 ```
 
 Type nvim on zsh to setup and install the plugins
