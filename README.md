@@ -39,7 +39,7 @@ source ~/.zshrc
 ```
 
 
-Setup fonts
+Setup fonts (ignore for now)
 
 ```
 git clone https://github.com/ryanoasis/nerd-fonts.git
