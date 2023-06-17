@@ -1,9 +1,16 @@
 # Setup Zsh
 
 echo "Installing zsh ... "
+
+
+sudo apt install zsh -y
+
 # Install oh my zsh
 # sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-/bin/bash install_ohmyzsh
+
+if [ -d ~/.oh-my-zsh ]; then
+  /bin/bash install_ohmyzsh.sh
+fi
 
 cp copy.zshrc ~/.zshrc
 
