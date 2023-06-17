@@ -2,7 +2,8 @@
 
 echo "Installing zsh ... "
 # Install oh my zsh
-sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+/bin/bash install_ohmyzsh
 
 cp copy.zshrc ~/.zshrc
 
