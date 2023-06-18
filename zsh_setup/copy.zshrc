@@ -1,3 +1,4 @@
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -9,8 +10,9 @@ export ZSH="$HOME/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="robbyrussell"\
-ZSH_THEME="gnzh"
-#ZSH_THEME="agnoster"
+ ZSH_THEME="gnzh"
+# ZSH_THEME="agnoster"
+# ZSH_THEME="Powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -105,3 +107,6 @@ export OPENAI_API_KEY='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'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+#
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
