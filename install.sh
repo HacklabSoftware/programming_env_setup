@@ -12,7 +12,7 @@ if [ -d ~/.oh-my-zsh ]; then
   /bin/bash install_ohmyzsh.sh
 fi
 
-cp copy.zshrc ~/.zshrc
+cp ./zsh_setup/copy.zshrc ~/.zshrc
 
 echo "Zsh setup done"
 
