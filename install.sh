@@ -49,7 +49,7 @@ sudo update-alternatives --config editor
 
 echo "Copying nvim setup files"
 rm -rf ~/.config/nvim
-mkdir ~/.config/nvim
+mkdir -p ~/.config/nvim
 cp -rf ./nvim_setup/nvim/* ~/.config/nvim/.
 
 echo "Installation done"
