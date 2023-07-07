@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 alias vi=nvim
 alias script="cd /data/scripts/project_scripts"
 
-export OPENAI_API_KEY='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'
+export OPENAI_API_KEY=''
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
